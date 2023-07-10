@@ -1,13 +1,18 @@
 /*
  * @Author: xiewenhao
  * @Date: 2023-07-10 15:28:24
- * @LastEditTime: 2023-07-10 15:29:26
- * @Description: 
+ * @LastEditTime: 2023-07-10 16:03:47
+ * @Description:
  */
-import React from 'react'
+import React, { memo } from 'react'
+import type { ReactNode } from 'react'
 
-const Download: React.FC = () => {
+interface Props {
+  children?: ReactNode
+}
+
+const DownLoad: React.FC<Props> = () => {
   return <div></div>
 }
 
-export default Download
+export default memo(DownLoad)
