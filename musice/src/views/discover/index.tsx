@@ -2,20 +2,17 @@
  * @Author: xiewenhao
  * @Date: 2023-07-10 15:05:15
  * @LastEditTime: 2023-07-11 13:15:26
- * @Description: 
+ * @Description:
  */
 import React, { memo, Suspense } from 'react'
 import { Outlet, Link } from 'react-router-dom'
 import { useSelector, shallowEqual } from 'react-redux'
 
 import { discoverRoutes } from './constant'
-import store from '@/store'
-
-type GetStateFnType = typeof store.getState
-type IRootState = ReturnType<GetStateFnType>
+import  {useAppSelector, IRootState } from '@/store'
 
 const Discover: React.FC = () => {
-  const counter = useSelector(
+  const counter = useAppSelector(
     (state: IRootState) => state.counter,
     shallowEqual
   )
