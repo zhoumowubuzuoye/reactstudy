@@ -1,7 +1,24 @@
-import { createAction, createSlice, PayloadAction } from '@reduxjs/toolkit'
+/*
+ * @Author: xiewenhao
+ * @Date: 2023-07-12 17:30:47
+ * @LastEditTime: 2023-07-13 17:27:25
+ * @Description:
+ */
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import Direction from '@/contants/Directions'
 
-const initialState = {
-  name: ''
+interface IState {
+  name: string
+  message: string
+  direction: Direction
+  count: number
+}
+
+const initialState: IState = {
+  name: '',
+  message: '',
+  direction: Direction.DEFAULT,
+  count: 0
 }
 
 export const counterSlice = createSlice({
