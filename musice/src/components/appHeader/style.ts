@@ -18,8 +18,8 @@ export const HeaderStyle = styled.div`
   .linkStyle {
     display: flex;
     position: relative;
-    flex:1;
-    justify-content:space-between;
+    flex: 1;
+    justify-content: space-between;
     & .hot {
       ${(props) => props.theme.mixin['sprite_01']};
       width: 28px;
@@ -28,6 +28,9 @@ export const HeaderStyle = styled.div`
       position: absolute;
       top: 20px;
       right: -14px;
+    }
+    .linkPath {
+      
     }
   }
 `
