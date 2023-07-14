@@ -3,6 +3,6 @@ enum Direction {
   BOTTOM = 'bottom',
   LEFT = 'left',
   RIGHT = 'right',
-  DEFAULT=''
+  DEFAULT = ''
 }
 export default Direction
