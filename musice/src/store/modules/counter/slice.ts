@@ -1,8 +1,8 @@
 /*
  * @Author: xiewenhao
  * @Date: 2023-07-12 17:30:47
- * @LastEditTime: 2023-07-13 17:27:25
- * @Description:
+ * @LastEditTime: 2023-07-17 14:46:18
+ * @Description: 
  */
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import Direction from '@/contants/Directions'

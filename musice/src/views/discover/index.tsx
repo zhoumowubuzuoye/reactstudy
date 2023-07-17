@@ -5,20 +5,12 @@
  * @Description:
  */
 import React, { memo, Suspense } from 'react'
-import { Outlet, Link } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 
-import { discoverRoutes } from './constant'
 
 const Discover: React.FC = () => {
   return (
     <div>
-      <div>
-        {discoverRoutes.map((item) => (
-          <Link key={item.path} to={item.path}>
-            {item.zhName}
-          </Link>
-        ))}
-      </div>
       <Suspense fallback="">
         <Outlet />
       </Suspense>

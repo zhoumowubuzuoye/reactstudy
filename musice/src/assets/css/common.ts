@@ -6,7 +6,7 @@ export const Common = styled.div`
     width: 1100px;
   }
   .fontStyle {
-    color: white;
+    color: #999;
     font-size:18px
   }
 `

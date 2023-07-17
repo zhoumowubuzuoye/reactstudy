@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^5.1.4",
     "@craco/craco": "^7.1.0",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,6 +14,7 @@
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "ant-design": "^1.0.0",
+    "antd": "^4.7.0",
     "axios": "^1.4.0",
     "craco-less": "^2.1.0-alpha.0",
     "normalize.css": "^8.0.1",
