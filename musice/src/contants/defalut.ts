@@ -3,4 +3,5 @@ export interface DefaultType {
   name: string
   picUrl?: string
   type?: number | string
+  [propName: string]: any
 }

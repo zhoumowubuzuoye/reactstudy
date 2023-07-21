@@ -13,11 +13,10 @@ export interface SongItem extends DefaultType {
 export interface AblumItem extends DefaultType {
   blurPicUrl: string
   status: number
-  [propName: string]: any
 }
 
 export interface PlayList extends DefaultType {
   coverImgUrl: string
   description: string
-  trackIds: []
+  tracks: any[]
 }

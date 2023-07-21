@@ -1,3 +1,9 @@
+/*
+ * @Author: xiewenhao
+ * @Date: 2023-07-21 16:18:59
+ * @LastEditTime: 2023-07-21 16:52:24
+ * @Description:
+ */
 import styled from 'styled-components'
 
 export const TopRecommendStyle = styled.div`
@@ -31,7 +37,7 @@ export const TableLiStyle = styled.div`
     margin-left: 8px;
     .name {
       cursor: pointer;
-      height:20px;
+      height: 20px;
       span {
         &:hover {
           border-bottom: 1px solid #333;
@@ -59,6 +65,26 @@ export const TableLiStyle = styled.div`
         &:hover {
           background-position: -300px -235px;
         }
+      }
+    }
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    li {
+      display: flex;
+      height: 32px;
+      line-height: 32px;
+      font-size: 16px;
+      &:nth-child(-n + 3) .index {
+        color: #c10d0c;
+      }
+      .index {
+        margin-left: 40px;
+      }
+      .name {
+        font-size: 12px;
+        margin-left:4px
       }
     }
   }

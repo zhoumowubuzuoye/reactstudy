@@ -115,5 +115,4 @@ export const MainLeftStyle = styled.div`
 export const MainRightStyle = styled.div`
   width: 250px;
   background: blue;
-  height: 2000px;
 `
