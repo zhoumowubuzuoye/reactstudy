@@ -1,3 +1,9 @@
+/*
+ * @Author: xiewenhao
+ * @Date: 2023-07-14 19:03:41
+ * @LastEditTime: 2023-07-18 13:18:53
+ * @Description: 
+ */
 import styled from 'styled-components'
 
 export const HeaderStyle = styled.div`
@@ -59,7 +65,7 @@ export const HeaderStyle = styled.div`
     ${(props) => props.theme.mixin.content};
     margin: 0 auto;
     display: flex;
-    padding-left: 348px;
+    padding-left: 174px;
     a {
       width: 100px;
       text-align: center;

@@ -7,10 +7,9 @@
 import React, { memo, Suspense } from 'react'
 import { Outlet } from 'react-router-dom'
 
-
 const Discover: React.FC = () => {
   return (
-    <div>
+    <div style={{ background: '#f5f5f5' }}>
       <Suspense fallback="">
         <Outlet />
       </Suspense>
