@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Album: React.FC<Props> = () => {
-  return <div>ablum</div>
+  return <div>ablum1</div>
 }
 
 export default memo(Album)
